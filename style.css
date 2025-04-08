@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    font-family: sans-serif; 
+}
+
+.ingredients {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.section-title {
+    color: #2a9d8f; /* Example fresh green color - adjust to match branding */
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem; 
+}
+
+/* Header/Nav Styles (Example) */
+.logo h1 {
+    color: #e76f51; /* Example contrasting color */
+}
+
+/* Highlight Banner */
+.highlight-banner {
+    background-color: #f4a261; /* Example color - choose one that fits */
+    color: #fff; 
+    font-size: 0.85em; 
+}
+.highlight-banner p {
+    letter-spacing: 0.5px; 
+}
+
+/* Hero Section Background */
+.hero-section {
+    background-image: url('images/backgrounds/farming.jpg');
+    background-color: #ccc; /* Fallback color */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
+    min-height: 250px; /* Give it some height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Menu Item Image Styling */
+.menu-item-image {
+    height: 200px; 
+    object-fit: cover; 
+    background-color: #eee;
+}
+
+/* Card Styling  */
+.card {
+    border: none; /* Remove default border */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Add subtle shadow */
+    transition: transform 0.2s ease-in-out; /* Add hover effect */
+}
+.card:hover {
+    transform: translateY(-5px); /* Lift card slightly on hover */
+}
+.card-title {
+    color: #e76f51; /* Example color */
+    font-weight: bold;
+}
+
+/* Footer Styles */
+footer {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Responsive Adjustments (Bootstrap handles most, but you can add more) */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 1.5rem; /* Slightly smaller title on mobile */
+    }
+    .hero-section {
+        min-height: 200px;
+        padding: 2rem; /* Adjust padding */
+    }
+}
+/* Used Gemini AI to assist with CSS style*
